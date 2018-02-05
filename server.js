@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 var db
 
-MongoClient.connect('mongodb://<jwolfe890>:<Hytrax890>@ds125068.mlab.com:25068/1stdb', (err, client) => {
+MongoClient.connect('mongodb://<>:<>@ds125068.mlab.com:25068/1stdb', (err, client) => {
     console.log("hello")
     if (err) return console.log(err)
     db = client.db('1stdb') // whatever your database name is
